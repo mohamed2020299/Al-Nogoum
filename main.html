@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- font awsome file -->
-    <link rel="stylesheet" href="fonts/fontawesome.css">
-    <script src="https://kit.fontawesome.com/07db1da5c3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/all.min.css">
     <!-- Nrmailze all file  -->
     <link rel="stylesheet" href="fonts/normalize.css">
     <!-- google fonts -->
@@ -21,29 +20,25 @@
 <!-- start header -->
 <header>
     <div class="container header">
-        <div class="logo">
-            <p>elngoom</p>
-            <span></span>
+        <div>
+            <div class="logo">
+                <p>elngoom</p>
+                <span></span>
+            </div>
+            <div class="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
         </div>
-        <div class="toggle">
-            <span></span>
-            <span></span>
-            <span></span>
+        <div class="nav-bar " class='close'>
+            <ul class='list'>
+
+            </ul>
+            <button class="button" href     ="#contact">sign-up</button>
         </div>
-        <!-- <div class="nav-bar">
-            <ul class="nav-bar-menue">
-                <h3>menue</h3>
-                <li><a href="#home">home</a></li>
-                <li><a href="#strategy">strategy</a></li>
-                <li><a href="#services">services</a></li>
-                <li><a href="#portfolio">portfolio</a></li>
-            </ul>
-            <ul class="nav-bar-contact">
-                <h3>git in touch</h3>
-                <li><a href="#contactUs">contact us</a></li>
-            </ul>
-            <ul class="nav-bar-social"></ul>
-        </div> -->
+
     </div>
 </header>
 <!-- End header -->
@@ -85,8 +80,9 @@
         </section>
         <!-- End strategy -->
         <!-- start services -->
+        <h2>services</h2>
         <section class="services" id="services">
-            <h2>services</h2>
+
             <div class="services-left">
                 <img src="img/services1.png" alt="services image">
             </div>
@@ -124,8 +120,8 @@
         </section>
         <!-- End services -->
         <!-- start portfolio -->
+        <h2>portfolio</h2>
         <section class="portfolio" id="portfolio">
-            <h2>portfolio</h2>
             <div class="myproject">
                 <!--with grid display-->
                 <div class="myproject-1">
@@ -158,26 +154,35 @@
                     <p class="subtitle">My creative ability is very difficult to measure because it can manifest in so
                         many surprising and.</p>
                 </div>
+                <div class="myproject-6">
+                    <img src="" alt="">
+                    <h3>New project</h3>
+                    <p class="subtitle">My creative ability is very difficult to measure because it can manifest in so
+                        many surprising and.</p>
+                </div>
             </div>
+            <button class="showmore">show more</button>
         </section>
         <!-- End portfolio -->
         <!-- start contact -->
         <section class="contact" id="contact">
             <h2>contact us</h2>
-            <div class="contact-us-left">
-                <div>
-                    <input type="email" placeholder="your email">
-                    <input type="text" placeholder="subject">
+            <div class="contact-container">
+                <div class="contact-us-left">
+                    <img src="img/contacs us.png" alt="contact us image">
                 </div>
-                <div>
-                    <input type="text" placeholder="Mesege here...">
+                <div class="contact-us-right">
+                    <div>
+                        <input type="email" placeholder="your email">
+                        <input type="subject" placeholder="subject">
+                        <textarea type="text" placeholder="Mesege here..."></textarea>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="button-box">
+                        <button class="button">send messege</button>
+                    </div>
                 </div>
-                <div class="button-box">
-                    <button class="button">send messege</button>
-                </div>
-            </div>
-            <div class="contact-us-right">
-                <img src="img/contacs us.png" alt="contact us image">
             </div>
         </section>
         <!-- End contact -->
@@ -185,21 +190,27 @@
 </main>
 <!-- start footer -->
 <footer>
-    <div class="container">
-        <p>elngoom</p>
+    <div class="container footer">
+        <p class="elngoom"> elngoom</p>
         <h1>CREATIVITY ABOVE</h1>
-        <div>
+        <div class="list">
             <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#strategy">strategy</a></li>
-                <li><a href="#services">services</a></li>
-                <li><a href="#portfolio">portfolio</a></li>
-                <li><a href="#contact">contact</a></li>
+                <li><a href="#home">home.</a></li>
+                <li><a href="#strategy">strategy.</a></li>
+                <li><a href="#services">services.</a></li>
+                <li><a href="#portfolio">portfolio.</a></li>
+                <li><a href="#contact">contact.</a></li>
             </ul>
+        </div>
+        <p class="copyRight">© 2019 - Elngoom,All Right Reserved</p>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/eng-mohamed-ahmed/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/mohamed2020299"><i class="fab fa-github"></i></a>
         </div>
     </div>
 </footer>
 <!-- End footer -->
+<script src="js/main.js"></script>
 
 <body>
 
